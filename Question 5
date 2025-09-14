@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+  int PizzaSize2;
+	float PizzaCost2;
+	int PizzaNum2;
+	int CrustType;
+	printf("Welcome to our Pizzeria!");
+	printf("\nHere are your deals:");
+	printf("\nA small pizza costs $8, medium pizza costs $12 and large pizza costs $16.");
+	printf("\nEnter 1 for a small pizza, 2 for a medium pizza, and 3 for a large pizza.");
+	printf("\nChoose a pizza size: ");
+	scanf("%d", &PizzaSize2);
+	printf("\n");
+	if (PizzaSize2 == 1)
+	{
+		printf("Your chosen pizza size is small!");
+	}	else if	(PizzaSize2 == 2)
+	{
+		printf("Your chosen pizza size is medium!");
+	}	else if (PizzaSize2 == 3)
+	{
+		printf("Your chosen pizza size is large!");
+	}	else	{
+		printf("Invalid pizza size");
+		return 0;
+	}
+	if (PizzaSize2 == 1)
+	{
+		PizzaCost2 = 8;
+	}	else if (PizzaSize2 == 2)
+	{
+		PizzaCost2 = 12;
+	}	else if (PizzaSize2 == 3)
+	{
+		PizzaCost2 = 16;
+	}
+	printf("\n");
+	printf("\nSave $3 for every pizza you buy! For example 3 large pizzas will not cost you $48, but rather $39!");
+	printf("\nEnter the amount of pizzas you want: ");
+	scanf("%d", &PizzaNum2);
+	PizzaCost2 = (PizzaCost2*PizzaNum2) - (PizzaNum2*3);
+	printf("\nA regular crust costs $0, thin crust costs $1, and stuffed crust costs $2.");
+	printf("\nEnter 1 for regular crust, 2 for thin crust, and 3 for stuffed crust.");
+	printf("\nChoose crust type: ");
+	scanf("%d", &CrustType);
+	if (CrustType == 1)
+	{
+		PizzaCost2 = PizzaCost2 + 0;
+	}	else if (CrustType == 2)
+	{
+		PizzaCost2 = PizzaCost2 + 1;
+	}	else if (CrustType == 3)
+	{
+		PizzaCost2 = PizzaCost2 + 2;
+	}	else	{
+		printf("Invalid Crust Size");
+		return 0;
+	}
+	
+	// Question 5:
+	// For this question PizzaCost2 was updated to a float rather than an int.
+	
+	char ExtraCheese;
+	printf("\nExtra cheese costs $1.50.");
+	printf("\nEnter Y for extra cheese, or N for no extra cheese.");
+	printf("\nDo you want extra cheese: ");
+	scanf(" %c", &ExtraCheese);
+	if (ExtraCheese == 'Y')
+	{
+		PizzaCost2 = PizzaCost2 + 1.50;
+	}	else if (ExtraCheese == 'N')
+	{
+		PizzaCost2 = PizzaCost2 + 0;
+	}	else	{
+		printf("Invalid response");
+		return 0;
+	}
+	printf("\nYour total cost with applicable discounts applied is $%.2f", PizzaCost2);
+		
+return 0;
+	
+}
+
+
+
