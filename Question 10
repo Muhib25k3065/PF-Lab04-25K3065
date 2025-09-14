@@ -163,8 +163,10 @@ int main()
 	
 	// Question 8:
 	
+	int GarlicBread;
 	if (PizzaNum2 == 3 && CrustType == 3)
 	{
+		GarlicBread = 1;
 		printf("\n");
 		printf("\nYou get free garlic bread!");
 		printf("\n");
@@ -189,7 +191,13 @@ int main()
 	}
 	
 	printf("\n");
+	printf("\nHere is your final receipt:");
+	printf("\n");
 	printf("\nYour total cost with applicable discounts applied is $%.2f", PizzaCost2);
+	if (GarlicBread == 1)
+	{
+		printf("\nYou also got free garlic bread!");
+	}
 	
 	// Question 10: 
 	
