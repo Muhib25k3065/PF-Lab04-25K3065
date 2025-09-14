@@ -1,5 +1,11 @@
 	// Question 4 (Starting over whole process from Question 1):
 	
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
 	int PizzaSize2;
 	int PizzaCost2;
 	int PizzaNum2;
