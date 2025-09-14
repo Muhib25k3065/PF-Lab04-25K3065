@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	
+	// Question 1:
+	
+	char PizzaSize[50];
+	printf("Choose a pizza size: ");
+	scanf("%s", &PizzaSize );
+	if (strcmp(PizzaSize, "Small") == 0 ||
+		strcmp(PizzaSize, "Medium") == 0 ||
+		strcmp(PizzaSize, "Large") == 0) 
+	{
+		printf("Your chosen pizza size is: %s", PizzaSize);
+	}	else	{
+		printf("Invalid Pizza Size");
+	}
+	
+	// Question 2:
+	
+	int PizzaCost = 8;
+	int PizzaNum;
+	printf("\nEnter the amount of pizzas you want: ");
+	scanf("%d", &PizzaNum);
+	if (PizzaNum > 1)
+	{
+		printf("Check our multi-pizza deals!");
+	}	else	{
+		printf("Your total is $%d", PizzaCost);
+	}
+	
+	return 0;
