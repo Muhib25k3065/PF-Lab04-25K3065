@@ -9,4 +9,9 @@ However after start of Question 4, all previous questions are discarded, and que
 
 ## Important point especially for miss Izzah
 
-Question 1 till 3 is a seperate program. From Question 4 onwards I have entered the code seperate from first 3 questions and in question 4 all previous tasks in q1-q3 are redone. This is why in Question 10 file, question 1 till question 3 is commented so that when the program is run, it starts from Question 4 and looks professional in the output CMD. Jazakallah.
+Question 1 till 3 is a seperate program. From Question 4 onwards I have entered the code seperate from first 3 questions and in question 4 all previous tasks in q1-q3 are redone. This is why in Question 10 file, question 1 till question 3 is commented so that when the program is run, it starts from Question 4 and looks professional in the output CMD.
+
+Also I have uploaded 2 screenshots, one of them is the old one, just ignore it. The newer screenshot is correct and shows final output of question 10 ( ignoring q1-q3 as that is already done again in q4).
+
+Jazakallah.
+
