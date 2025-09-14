@@ -152,7 +152,7 @@ int main()
 	if (StudentID == 'Y')
 	{
 		PizzaCost2 = PizzaCost2 - 2;
-		printf("Congratulations, students gets $2 off!");
+		printf("\nCongratulations, students gets $2 off!");
 	}	else if (StudentID == 'N')
 	{
 		PizzaCost2 = PizzaCost2;
@@ -165,7 +165,9 @@ int main()
 	
 	if (PizzaNum2 == 3 && CrustType == 3)
 	{
+		printf("\n");
 		printf("\nYou get free garlic bread!");
+		printf("\n");
 	}
 		
 	// Question 9:
@@ -191,7 +193,7 @@ int main()
 	
 	// Question 10: 
 	
-	// All the code is connected from question 4 onwards, all questions have been asked, and final calculated price with applicable discounts has been printed. The Tasks are complete! Question 1 till 3 is commented as they are a seperate program on their own. Question 4 till Question 10 includes all tasks asked in q1-3 and all the tasks asked in q4-q10.
+	// All the code is connected from question 4 onwards, all questions have been asked, and final calculated price with applicable discounts has been printed. The Tasks are complete!
 	
 return 0;
 	
