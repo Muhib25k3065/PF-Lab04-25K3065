@@ -120,7 +120,7 @@ int main()
 		printf("\nYou get free garlic bread!");
 	}
 		
-	// Question 8:
+	// Question 9:
 	
 	int Delivery;
 	printf("\nDelivery costs $3");
